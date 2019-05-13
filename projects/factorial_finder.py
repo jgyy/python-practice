@@ -4,19 +4,22 @@ for some given number of inputs
 """
 
 
-def fac(n):
-    if (n == 0):
+def fac(num):
+    """
+    :param num:
+    :return:
+    """
+    if num == 0:
         return 1
-    elif (n == 1):
+    if num == 1:
         return 1
-    else:
-        return n * fac(n - 1)
+    return num * fac(num - 1)
 
 
-t = input()
-while (t):
-    t = t - 1
-    n = input()
-    p = fac(n)
-    print
-    p
+if __name__ == "__main__":
+    T = int(input("While loop repeat count: "))
+    while T:
+        T -= 1
+        N = int(input("Type a number here: "))
+        P = fac(N)
+        print("The factorial values are: " + str(P))
