@@ -21,7 +21,7 @@ def fib_sequence(num):
         else:
             series.append(series[-1] + series[-2])
 
-    for i in enumerate(series):  # Convert the numbers to strings
+    for i in enumerate(series):  # Convert the numbering to strings
         series[i[0]] = str(series[i[0]])
 
     return ', '.join(series)  # Return the sequence separated by commas
@@ -29,7 +29,7 @@ def fib_sequence(num):
 
 def main():
     """Wrapper function"""
-    print(fib_sequence(int(input('How many numbers do you need? '))))
+    print(fib_sequence(int(input('How many numbering do you need? '))))
 
 
 if __name__ == '__main__':

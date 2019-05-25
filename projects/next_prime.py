@@ -1,6 +1,6 @@
 """
 Next Prime Number
-Generate prime numbers until
+Generate prime numbering until
 the user chooses to stop
 """
 

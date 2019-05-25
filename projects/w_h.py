@@ -20,7 +20,7 @@ print(cost_to_cover(50, 100, 0.5))
 
 def find_max_comb(seq):
     """
-    Find max combination of 2 numbers in a sequence - n^2
+    Find max combination of 2 numbering in a sequence - n^2
     """
     temp = 0
     for i, num in enumerate(seq):

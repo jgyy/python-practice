@@ -44,7 +44,7 @@ def prime_factorize(number):
 
 if __name__ == '__main__':
     print("Welcome to the Prime Factorization.. "
-          "Enter the numbers in the prompt or enter 'quit' to exit")
+          "Enter the numbering in the prompt or enter 'quit' to exit")
     NUM = 0
 
     while True:

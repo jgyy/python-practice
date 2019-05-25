@@ -1,5 +1,5 @@
 """
-problem description: program to find the factorial values of numbers
+problem description: program to find the factorial values of numbering
 for some given number of inputs
 """
 
