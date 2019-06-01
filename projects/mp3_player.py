@@ -60,7 +60,7 @@ class Application(Frame):
     def add(self):
         """add function"""
         # noinspection SpellCheckingInspection
-        file = tk.askopenfilenames(initialdir='C:/Users/babbu/Downloads')
+        file = tk.askopenfilenames(initialdir='~/Downloads')
         songs_tuple = Tk.splitlist(file)  # turn user's opened filenames into tuple
         songs_list = list(songs_tuple)  # convert to list
         # Add the full filename of song to playlist list, and a shortened version to the listBox

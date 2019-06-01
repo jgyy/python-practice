@@ -2,7 +2,22 @@
   <dictionary name="jgyy">
     <words>
       <w>aeiou</w>
+      <w>collatz</w>
+      <w>eulerian</w>
+      <w>fleury</w>
       <w>haversine</w>
+      <w>konigsberg</w>
+      <w>lxml</w>
+      <w>medecin</w>
+      <w>medecins</w>
+      <w>meth</w>
+      <w>prims</w>
+      <w>pyflann</w>
+      <w>quiquoi</w>
+      <w>resized</w>
+      <w>scipy</w>
+      <w>textline</w>
+      <w>tvguide</w>
     </words>
   </dictionary>
 </component>

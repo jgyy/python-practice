@@ -34,7 +34,7 @@ def rand_num(low, high, num):
     """
     :param low: lowest number
     :param high: highest number
-    :param num: total numbers to iterate
+    :param num: total numbering to iterate
     """
     for _ in range(num):
         yield random.randint(low, high)
